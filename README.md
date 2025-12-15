@@ -47,14 +47,21 @@ Experiments are conducted on **ZJUT-EIFD** (OCT fingerprint dataset).
 ---
 
 ### U_OCFR
-The **U_OCFR** dataset was created by Zhang *et al.* and originates from their in-house OCT fingerprint database, comprising **2,449 OCT volumes**. The dataset provides OCT fingerprints in the form of volumetric data (instances/volumes): each instance typically consists of **400 B-scans** acquired along the fingertip in the horizontal (X–Y) direction, and each B-scan is a depth (X–Z) cross-section composed of multiple A-lines. Under the PAD protocol, the data are partitioned into a **reference set** and a **test set**, where the reference set is **not used for training**. The reference set contains **16 bona fide instances** from **eight fingers**, with each finger captured in **two acquisition sessions**; the test set includes **176 bona fide instances** from **137 subjects** and **121 PA instances**. The PA samples span **101 different materials** and include both **2D and 3D** presentation attacks, e.g., printing, pencil powder, crayon, and ink for 2D attacks, and transparent silica gel, gelatin, latex, and wood gum for 3D attacks.
+We additionally evaluate on **U_OCFR** (external OCT fingerprint dataset) for cross-domain testing.
 
-**Cross-dataset evaluation (ZJUT → U_OCFR).**  
-In our cross-dataset evaluation, we treat **U_OCFR** as an external target-domain test set to systematically assess the generalization capability of the proposed method under domain shift. Specifically, we keep the model architecture and parameters fixed and perform **no target-domain fine-tuning or adaptation**; instead, we directly deploy the model trained on our in-house dataset to **U_OCFR**. This setting enables us to evaluate **zero-shot generalization** under changes in acquisition conditions and shifts in the distribution of spoof types and materials.
+- **2,449** OCT volumes; each volume typically has **400 B-scans** (X–Y), each B-scan is an X–Z cross-section
+- Split into **reference set** (not used for training) and **test set**
+  - Reference: **16** bona fide (8 fingers × 2 sessions)
+  - Test: **176** bona fide (137 subjects) + **121** PA
+- PAIs cover **101** materials, including **2D/3D** attacks (e.g., printing/ink; silica gel/gelatin/latex)
+
+> See the U_OCFR paper for full details and protocol.
 
 **Reference**
 - W. Zhang, H. Liu, F. Liu, and R. Ramachandra, “A Uniform Representation Learning Method for OCT-based Fingerprint Presentation Attack Detection and Reconstruction,” *Pattern Recognition*, vol. 149, Art. no. 109981, 2024.
 
+**Cross-domain evaluation (ZJUT → U_OCFR).**  
+In our cross-dataset evaluation, we treat **U_OCFR** as an external target-domain test set to systematically assess the generalization capability of the proposed method under domain shift. Specifically, we keep the model architecture and parameters fixed and perform **no target-domain fine-tuning or adaptation**; instead, we directly deploy the model trained on our in-house dataset to **U_OCFR**. This setting enables us to evaluate **zero-shot generalization** under changes in acquisition conditions and shifts in the distribution of spoof types and materials.
 
 ---
 
