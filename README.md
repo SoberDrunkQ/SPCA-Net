@@ -28,9 +28,9 @@ Our framework emphasizes subsurface tissue structural priors and integrates them
 
 ## Dataset
 
-Experiments are conducted on two OCT fingerprint PAD datasets: **ZJUT-EIFD** (in-house) and **U_OCFR** (public).
+Experiments are conducted on two OCT fingerprint PAD datasets: **ZJUT-EIFD** (public) and **U_OCFR** (public).
 
-### ZJUT-EIFD (in-house)
+### ZJUT-EIFD
 Experiments are conducted on **ZJUT-EIFD** (OCT fingerprint dataset).
 
 - OCT system: spectral-domain OCT, **central wavelength 1,310 nm**, bandwidth **85.6 nm**
@@ -43,6 +43,9 @@ Experiments are conducted on **ZJUT-EIFD** (OCT fingerprint dataset).
 - **1,050** manually annotated B-scans (glass / stratum corneum / viable epidermis)
 
 > Note: Please refer to the paper for full dataset details and protocol.
+
+**Reference**
+- H. Sun, H. Wang, Y. Zhang, R. Liang, P. Chen, and J. Feng, “ZJUT-EIFD: A synchronously collected external and internal fingerprint database,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 46, no. 4, pp. 2267–2284, 2024.
 
 ### U_OCFR
 We additionally evaluate on **U_OCFR** (external OCT fingerprint dataset) for cross-domain testing.
