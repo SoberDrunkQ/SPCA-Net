@@ -6,7 +6,7 @@ This repository is the official project page for the paper:
 Yi-Peng Liu, Jiajin Qi, Zhanqing Li, Jie Ji, Haohao Sun, Yilong Zhang, Haixia Wang, Jing Li
 
 > **Status:** Under review / Major revision.  
-> **Code Release:** We will release the full source code and pretrained models **upon acceptance/publication**.
+> **Code Release:** We will release the full source code **upon acceptance/publication**.
 
 ---
 
