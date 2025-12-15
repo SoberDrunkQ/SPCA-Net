@@ -44,8 +44,6 @@ Experiments are conducted on **ZJUT-EIFD** (OCT fingerprint dataset).
 
 > Note: Please refer to the paper for full dataset details and protocol.
 
----
-
 ### U_OCFR
 We additionally evaluate on **U_OCFR** (external OCT fingerprint dataset) for cross-domain testing.
 
@@ -59,8 +57,6 @@ We additionally evaluate on **U_OCFR** (external OCT fingerprint dataset) for cr
 
 **Reference**
 - W. Zhang, H. Liu, F. Liu, and R. Ramachandra, “A Uniform Representation Learning Method for OCT-based Fingerprint Presentation Attack Detection and Reconstruction,” *Pattern Recognition*, vol. 149, Art. no. 109981, 2024.
-
----
 
 ### Cross-Domain Evaluation (ZJUT → U_OCFR)
 In our cross-dataset evaluation, we treat **U_OCFR** as an external target-domain test set to systematically assess the generalization capability of the proposed method under domain shift. Specifically, we keep the model architecture and parameters fixed and perform **no target-domain fine-tuning or adaptation**; instead, we directly deploy the model trained on our in-house dataset to **U_OCFR**. This setting enables us to evaluate **zero-shot generalization** under changes in acquisition conditions and shifts in the distribution of spoof types and materials.
