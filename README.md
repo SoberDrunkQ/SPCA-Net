@@ -10,8 +10,8 @@ Yi-Peng Liu, Jiajin Qi, Zhanqing Li, Jie Ji, Haohao Sun, Yilong Zhang, Haixia Wa
 
 ---
 
-## Abstract (paraphrased)
-Fingerprint presentation attack detection (PAD) is critical for secure fingerprint recognition. OCT can capture subsurface 3D fingertip structures, offering stronger PAD cues. We propose a structural prior-guided cross-attention framework that leverages tissue-structure priors and jointly models segmentation-driven structural features and reconstruction-based distances. The method is trained without PA samples and generalizes well to diverse attack materials. A fused reconstruction-distance design further enlarges the separation between bona fide and PA samples for improved decision boundaries.
+## Abstract 
+Fingerprint presentation attack detection (PAD) is crucial in automatic fingerprint recognition systems. Optical coherence tomography (OCT) can capture the 3D complex structure of a fingertip because of its high resolution and skin penetrability, thus providing more reliable PAD performance for fingerprint recognition technology. Unsupervised OCT fingerprint PAD remains an unresolved issue. Existing methods rely primarily on whole slices of OCT volume and often overlook the importance of continuity and correlation among multiple features beneath the skin. In this study, we explore the reconstruction and segmentation tasks for OCT B-scan slices to discover the potential relationships between the multilayer tissue structure and overall features, and their implications for PAD tasks. We propose a novel cross-attention network that leverages prior knowledge of fingertip tissue structure. This network enhances the PAD performance by incorporating a cross-attention segmentation task interaction module to capture more structural information. Notably, our method does not require presentation attack (PA) samples during training and exhibits good generalizability for PA samples made from various materials during testing. Moreover, we introduce a reconstruction loss, which is used to further widen the reconstruction distance between the bona fide and PA samples to obtain a more accurate decision boundary for the PAD task.
 
 ---
 
