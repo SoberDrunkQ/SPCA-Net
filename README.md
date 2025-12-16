@@ -40,8 +40,8 @@ Experiments are conducted on **ZJUT-EIFD** (OCT fingerprint dataset).
 - Due to incomplete early slices, only the **last 1,000 slices** per volume are used
 
 <p align="center">
-  <img src="figs/zjut_a.png" width="48%" />
-  <img src="figs/zjut_b.png" width="48%" />
+  <img src="figs/zjut(a).png" width="48%" />
+  <img src="figs/zjut(b).png" width="48%" />
 </p>
 
 **Segmentation subset**
@@ -61,7 +61,9 @@ We additionally evaluate on **U_OCFR** (external OCT fingerprint dataset) for cr
   - Test: **176** bona fide (137 subjects) + **121** PA
 - PAIs cover **101** materials, including **2D/3D** attacks (e.g., printing/ink; silica gel/gelatin/latex)
 
-!(figs/uocfr.bmp)
+<p align="center">
+  <img src="figs/uocfr.bmp" width="80%" />
+</p>
 
 > See the U_OCFR paper for full details and protocol.
 
