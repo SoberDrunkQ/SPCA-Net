@@ -23,7 +23,7 @@ Our framework emphasizes subsurface tissue structural priors and integrates them
 - **Dual-distance spoof score** combining:
   - image reconstruction distance (**FDis**)
   - feature reconstruction distance (**RDis**)
-
+![Overview of the proposed method](figs/method.png)
 ---
 
 ## Dataset
