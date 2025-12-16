@@ -41,8 +41,8 @@ Experiments are conducted on **ZJUT-EIFD** (OCT fingerprint dataset).
 
 <p align="center">
   <img src="figs/zjut(a).png" width="48%" height="220" />
-  <img src="figs/zjut(b).png" width="48%" />
-  <img src="figs/zjut.png" width="80%" />
+  <img src="figs/zjut(b).png" width="48%" height="220" />
+  <img src="figs/zjut.bmp" width="80%" />
 </p>
 
 **Segmentation subset**
