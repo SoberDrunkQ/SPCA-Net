@@ -23,7 +23,9 @@ Our framework emphasizes subsurface tissue structural priors and integrates them
 - **Dual-distance spoof score** combining:
   - image reconstruction distance (**FDis**)
   - feature reconstruction distance (**RDis**)
-![Overview of the proposed method](figs/method.png)
+<p align="center">
+  <img src="figs/method.png" width="90%" />
+</p>
 ---
 
 ## Dataset
@@ -40,9 +42,9 @@ Experiments are conducted on **ZJUT-EIFD** (OCT fingerprint dataset).
 - Due to incomplete early slices, only the **last 1,000 slices** per volume are used
 
 <p align="center">
-  <img src="figs/zjut(a).png" width="48%" height="220" />
-  <img src="figs/zjut(b).png" width="48%" height="220" />
-  <img src="figs/zjut.bmp" width="80%" />
+  <img src="figs/zjut(a).png" width="45%" height="220" />
+  <img src="figs/zjut(b).png" width="45%" height="220" />
+  <img src="figs/zjut.bmp" width="90%" />
 </p>
 
 **Segmentation subset**
@@ -63,7 +65,7 @@ We additionally evaluate on **U_OCFR** (external OCT fingerprint dataset) for cr
 - PAIs cover **101** materials, including **2D/3D** attacks (e.g., printing/ink; silica gel/gelatin/latex)
 
 <p align="center">
-  <img src="figs/uocfr.bmp" width="80%" />
+  <img src="figs/uocfr.bmp" width="90%" />
 </p>
 
 > See the U_OCFR paper for full details and protocol.
