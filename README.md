@@ -42,8 +42,8 @@ Experiments are conducted on **ZJUT-EIFD** (OCT fingerprint dataset).
 - Due to incomplete early slices, only the **last 1,000 slices** per volume are used
 
 <p align="center">
-  <img src="figs/zjut(a).png" width="45%" height="220" />
-  <img src="figs/zjut(b).png" width="45%" height="220" />
+  <img src="figs/zjut(a).png" width="45%" height="120" />
+  <img src="figs/zjut(b).png" width="45%" height="120" />
   <img src="figs/zjut.bmp" width="90%" />
 </p>
 
